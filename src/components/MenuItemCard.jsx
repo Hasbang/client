@@ -9,7 +9,7 @@ const MenuItemCard = ({ item }) => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:3000/menu/${id}`);
+      await axios.delete(`http://resmenubackend.onrender.com/${id}`);
       alert('Deleted!');
       window.location.reload(); // or trigger state refresh
     } catch (err) {

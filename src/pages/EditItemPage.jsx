@@ -43,7 +43,7 @@ const EditItemPage = () => {
     });
 
     try {
-      await axios.put(`http://localhost:3000/menu/${id}`, data, {
+      await axios.put(`http://resmenubackend.onrender.com/${id}`, data, {
         headers: { 'Content-Type': 'multipart/form-data' }
       });
       alert('Item updated!');

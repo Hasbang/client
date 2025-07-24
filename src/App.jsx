@@ -34,7 +34,7 @@ function App() {
       </main>
 
       <footer className="bg-white p-4 mt-8 text-center text-sm text-gray-500">
-        &copy; 2025 Hassan’s Menu App. All rights reserved.
+        &copy; 2025 Things and Something Menu All rights reserved.
       </footer>
     </div>
   );
