@@ -9,7 +9,7 @@ const CustomerMenuPage = () => {
 
  
     useEffect(() => {
-    axios.get('http://localhost:3000/menu')
+    axios.get('http://resmenubackend.onrender.com')
       .then(res => {
         setItems(res.data);
         setFilteredItems(res.data);
