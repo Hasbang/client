@@ -41,7 +41,7 @@ const AdminPage = () => {
 
 
   try {
-    await axios.post('http://resmenubackend.onrender.com', data, {
+    await axios.post('http://resmenubackend.onrender.com/menu', data, {
       headers: { 'Content-Type': 'multipart/form-data' }
     });
     alert('Item added!');
