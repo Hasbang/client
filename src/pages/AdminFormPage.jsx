@@ -6,7 +6,7 @@ import axios from 'axios';
 
 
 
-const AdminPage = () => {
+const AdminFormPage = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: '',
@@ -116,4 +116,4 @@ return (
 );
 };
 
-export default AdminPage;
+export default AdminFormPage;

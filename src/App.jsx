@@ -1,10 +1,11 @@
 // src/App.js
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MenuPage from './pages/MenuPage';
-import AdminPage from './pages/AdminPage';
+import AdminPage from './pages/AdminHomePage';
 import EditItemPage from './pages/EditItemPage';
 import CustomerMenuPage from './pages/CustomerMenuPage';
 import QRCodePage from './pages/QRCodePage'
+import AdminFormPage from './pages/AdminFormPage';
 
 
 
@@ -22,7 +23,8 @@ function App() {
         
           <Routes>
             <Route path="/" element={<MenuPage />} />
-            <Route path="/admin" element={<AdminPage />} />
+            <Route path="/admin-home" element={<AdminPage />} />
+            <Route path="/admin" element={<AdminFormPage />} />
             <Route path="/edit/:id" element={<EditItemPage />} />
             <Route path="/view-menu" element={<CustomerMenuPage />} />
             <Route path="/qr" element={<QRCodePage />} />
