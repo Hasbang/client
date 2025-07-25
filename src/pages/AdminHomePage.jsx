@@ -12,9 +12,9 @@ const AdminHomePage = () => {
       {/* 🧭 Navbar */}
       <nav className="bg-white shadow rounded mb-6 p-4 flex justify-center gap-6">
         <Link to="/qr" className="text-blue-600 hover:underline">QR Code</Link>
-        <Link to="/view-menu" className="text-blue-600 hover:underline">Customer Menu</Link>
+        <Link to="/menu" className="text-blue-600 hover:underline">Menu</Link>
         <Link to="/admin" className="text-blue-600 hover:underline">Add Items</Link>
-        <Link to="/edit/:id" className="text-blue-600 hover:underline">Edit Item</Link>
+      
       </nav>
 
       {/* 👋 Welcome Section */}
