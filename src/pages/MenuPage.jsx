@@ -9,7 +9,7 @@ const MenuPage = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
 
   useEffect(() => {
-    axios.get('http://resmenubackend.onrender.com/menu')
+    axios.get('https://resmenubackend.onrender.com/menu')
       .then(res => {
         setItems(res.data);
         setFilteredItems(res.data);
