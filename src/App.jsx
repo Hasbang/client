@@ -22,7 +22,7 @@ function App() {
 
         
           <Routes>
-            <Route path="/" element={<MenuPage />} />
+            <Route path="/menu" element={<MenuPage />} />
             <Route path="/admin-home" element={<AdminPage />} />
             <Route path="/admin" element={<AdminFormPage />} />
             <Route path="/edit/:id" element={<EditItemPage />} />
